@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quer namorar comigo?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/coracao.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Nanum+Gothic:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quer namorar comigo?</h1>
+
+      <ul>
+        <li>
+          <button onclick="sim()" class="button-yes button" id="Yes">
+            Sim😍
+          </button>
+        </li>
+        <li>
+          <button onmouseover="desvia(this)" class="button-no button" id="No">
+            Não💔
+          </button>
+        </li>
+      </ul>
+
+      <img class="imagem" src="src/avatar.png" alt="" />
+
+      <div class="heart-container">
+        <audio id="audio" loop>
+          <source src="legal/loveyou.m4a" type="audio/mp3" />
+        </audio>
+        <span class="heart" style="--i: 10"></span>
+        <span class="heart" style="--i: 17"></span>
+        <span class="heart" style="--i: 13"></span>
+        <span class="heart" style="--i: 20"></span>
+        <span class="heart" style="--i: 30"></span>
+        <span class="heart" style="--i: 25"></span>
+        <span class="heart" style="--i: 50"></span>
+        <span class="heart" style="--i: 36"></span>
+        <span class="heart" style="--i: 27"></span>
+        <span class="heart" style="--i: 15"></span>
+        <span class="heart" style="--i: 18"></span>
+        <span class="heart" style="--i: 29"></span>
+        <span class="heart" style="--i: 53"></span>
+        <span class="heart" style="--i: 33"></span>
+        <span class="heart" style="--i: 38"></span>
+        <span class="heart" style="--i: 40"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
